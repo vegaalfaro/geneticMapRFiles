@@ -1,0 +1,39 @@
+---
+title: "README"
+author: "Vega"
+date: "2025-04-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# geneticMapRFiles
+
+This repository contains external data files used by the `geneticMapR` R package, developed by Andrey Vega Alfaro.
+
+## Structure
+
+The data here includes:
+
+- **vcf** for initial genotype data
+- **IDs** ID of some samples
+- **R_data** R data used in vignettes
+- **phenotype** Phenotypic data
+
+## Purpose
+
+Due to CRAN size limitations and long build times, large data files are hosted in this separate repository. The package accesses these files when needed via GitHub download or manual linking.
+
+## Usage
+
+You can clone or download this repository and point your R package to the relevant files. Alternatively, use `download.file()` in your R scripts to pull files programmatically.
+
+```{r, eval=FALSE}
+download.file("https://github.com/vegaalfaro/geneticMapRFiles/vcf/SNP_updated_IDs_sorted2.vcf.gz",
+              destfile = "SNP_updated_IDs_sorted2.vcf.gz")
+```
+
+
+
