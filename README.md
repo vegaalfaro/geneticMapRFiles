@@ -40,6 +40,10 @@ MIT
 
 ### IDs
 
+- `ID-Pedigrees-Biparentals-2025-01-22.xlsx`: This table contains
+  sample-level metadata for individuals in a genetic study which
+  corresponds to samples in a VCF file and downstream analysis.
+
 ### phenotype
 
 ### R_data

@@ -43,6 +43,7 @@ MIT
 ## Files Description
 
 ### IDs
+
 - `ID-Pedigrees-Biparentals-2025-01-22.xlsx`: This table contains sample-level metadata for individuals in a genetic study which corresponds to samples in a VCF file and downstream analysis.
 
 
@@ -51,6 +52,9 @@ MIT
 ### R_data
 
 ### vcf
+
+- `SNP_updated_IDs_sorted2.vcf.gz`: This is a lightly filtered version of the VCF file that contains genetic markers and individuals. The marker names have been processed for clarity. 
+
 
 
 
