@@ -1,0 +1,35 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# geneticMapRFiles
+
+This repository stores data files used alongside the `geneticMapR` R
+package.
+
+## Repository Purpose
+
+This data-only repository hosts example and large-scale datasets used
+for development, testing, and demonstration of the `geneticMapR`
+package. These datasets are not included in the main CRAN package due to
+size limitations.
+
+## Folder Structure
+
+- ID: Sample names and pedigree
+- phenotype: phenotypic data
+- vcf: genotypic data, usually in vcf format.
+- R_data: RDAs and other R objects and datasets.
+
+## Usage
+
+These files can be accessed in your R workflows by downloading them
+directly or by linking this GitHub repo in your pipeline.
+
+## Related Package
+
+See the main package:
+[`geneticMapR`](https://github.com/vegaalfaro/geneticMapR)
+
+## License
+
+MIT
