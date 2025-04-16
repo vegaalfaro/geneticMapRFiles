@@ -46,6 +46,17 @@ MIT
 
 ### phenotype
 
+- `phenotypes-binary.csv`: Phenotypic data of root shapes for an
+  F<sub>2</sub> mapping population of *Beta vulgaris*. Data includes
+  unique identifiers and sample identifiers. Phenotype columns start a
+  column I.
+
+- 
+
 ### R_data
 
 ### vcf
+
+- `SNP_updated_IDs_sorted2.vcf.gz`: This is a lightly filtered version
+  of the VCF file that contains genetic markers and individuals. The
+  marker names have been processed for clarity.
