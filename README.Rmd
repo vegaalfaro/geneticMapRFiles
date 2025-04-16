@@ -11,6 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+_Last updated: April 16, 2025 by Andrey Vega Alfaro_
 
 # geneticMapRFiles
 
@@ -22,10 +23,10 @@ This data-only repository hosts example and large-scale datasets used for develo
 
 ## Folder Structure
 
-- ID: Sample names and pedigree
-- phenotype: phenotypic data 
-- vcf: genotypic data, usually in vcf format.
-- R_data: RDAs and other R objects and datasets.
+- `IDs`: Sample names and pedigree
+- `phenotype`: phenotypic data 
+- `vcf`: genotypic data, usually in vcf format.
+- `R_data`: RDAs and other R objects and datasets.
 
 ## Usage
 
@@ -37,4 +38,19 @@ See the main package: [`geneticMapR`](https://github.com/vegaalfaro/geneticMapR)
 
 ## License
 
-[MIT]
+MIT
+
+## Files Description
+
+### IDs
+- `ID-Pedigrees-Biparentals-2025-01-22.xlsx`: This table contains sample-level metadata for individuals in a genetic study which corresponds to samples in a VCF file and downstream analysis.
+
+
+### phenotype
+
+### R_data
+
+### vcf
+
+
+

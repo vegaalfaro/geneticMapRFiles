@@ -1,6 +1,8 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+*Last updated: April 16, 2025 by Andrey Vega Alfaro*
+
 # geneticMapRFiles
 
 This repository stores data files used alongside the `geneticMapR` R
@@ -15,10 +17,10 @@ size limitations.
 
 ## Folder Structure
 
-- ID: Sample names and pedigree
-- phenotype: phenotypic data
-- vcf: genotypic data, usually in vcf format.
-- R_data: RDAs and other R objects and datasets.
+- `IDs`: Sample names and pedigree
+- `phenotype`: phenotypic data
+- `vcf`: genotypic data, usually in vcf format.
+- `R_data`: RDAs and other R objects and datasets.
 
 ## Usage
 
@@ -33,3 +35,13 @@ See the main package:
 ## License
 
 MIT
+
+## Files Description
+
+### IDs
+
+### phenotype
+
+### R_data
+
+### vcf
