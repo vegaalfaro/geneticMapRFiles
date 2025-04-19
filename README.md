@@ -5,8 +5,8 @@
 
 # geneticMapRFiles
 
-This repository stores data files used alongside the `geneticMapR` R
-package.
+This repository stores data files used alongside the
+[geneticMapR](https://vegaalfaro.github.io/geneticMapR/) R package.
 
 ## Repository Purpose
 
