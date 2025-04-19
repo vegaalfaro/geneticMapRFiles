@@ -48,12 +48,25 @@ MIT
 
 - `phenotypes-binary.csv`: Phenotypic data of root shapes for an
   F<sub>2</sub> mapping population of *Beta vulgaris*. Data includes
-  unique identifiers and sample identifiers. Phenotype columns start a
+  unique identifiers and sample identifiers. Phenotype columns start at
   column I.
 
-- 
-
 ### R_data
+
+The **filtered_geno_matrices_1629.RData** file contains the following R
+objects:
+
+- `hom_phased_geno_1629`: A genotype matrix of 2845 markers by 104
+  individuals. It keeps only homozygous markers (where parents are fixed
+  for either 0 or 2 alleles). Filtered for missing data.
+- `het_phased_geno_1629`: A genotype matrix of of 12,155 markers and 104
+  individuals. It keeps homozygous and heterozygous markers.
+- `het_phased_geno_1629_filt`: A filtered version of
+  `het_phased_geno_1620` with 6482 markers and 104 individuals.
+  Filtering parameters and procedures are explained in this
+  [article](https://vegaalfaro.github.io/geneticMapR/articles/Recode.html).
+- markers_homozygous: dimensions of `hom_phased_geno_1629`
+- markers_heterozygous: dimensions of `het_phased_geno_1629_filt`
 
 ### vcf
 
