@@ -11,11 +11,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-_Last updated:_
-```{r}
-Sys.Date()
-```
-
 
 # geneticMapRFiles
 
@@ -66,6 +61,10 @@ The **filtered_geno_matrices_1629.RData** file contains the following R objects:
 - markers_homozygous: dimensions of `hom_phased_geno_1629`
 - markers_heterozygous: dimensions of `het_phased_geno_1629_filt`
 
+The **binned_geno_1629.RData** file contains the following R objects: 
+- `geno.het.bin`: A genotype matrix of 2480 **binned** markers by 100 individuals. Includes heterozygous and homozygous markers.
+- `geno.hom.bin`: A genotype matrix of 998 **binned** markers by 100 individuals. Includes homozygous markers only.
+- `dendro`: a ggplot object showing a dendrogram used to visualize relationship among samples.
 
 
 ### vcf
@@ -73,5 +72,9 @@ The **filtered_geno_matrices_1629.RData** file contains the following R objects:
 - `SNP_updated_IDs_sorted2.vcf.gz`: This is a lightly filtered version of the VCF file that contains genetic markers and individuals. The marker names have been processed for clarity. 
 
 
+__Last updated:__
+```{r, echo=FALSE}
+Sys.Date()
+```
 
 

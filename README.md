@@ -1,8 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-*Last updated: April 16, 2025 by Andrey Vega Alfaro*
-
 # geneticMapRFiles
 
 This repository stores data files used alongside the
@@ -73,3 +71,7 @@ objects:
 - `SNP_updated_IDs_sorted2.vcf.gz`: This is a lightly filtered version
   of the VCF file that contains genetic markers and individuals. The
   marker names have been processed for clarity.
+
+**Last updated:**
+
+    #> [1] "2025-04-19"
