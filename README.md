@@ -66,13 +66,16 @@ objects:
 - markers_homozygous: dimensions of `hom_phased_geno_1629`
 - markers_heterozygous: dimensions of `het_phased_geno_1629_filt`
 
-The **binned_geno_1629.RData** file contains the following R objects: -
-`geno.het.bin`: A genotype matrix of 2480 **binned** markers by 100
-individuals. Includes heterozygous and homozygous markers. -
-`geno.hom.bin`: A genotype matrix of 998 **binned** markers by 100
-individuals. Includes homozygous markers only. - `dendro`: a ggplot
-object showing a dendrogram used to visualize relationship among
-samples.
+The **binned_geno_1629.RData** file contains the following R objects:
+
+- `geno.het.bin`: A genotype matrix of 2480 **binned** markers by 100
+  individuals. Includes heterozygous and homozygous markers.
+
+- `geno.hom.bin`: A genotype matrix of 998 **binned** markers by 100
+  individuals. Includes homozygous markers only.
+
+- `dendro`: a ggplot object showing a dendrogram used to visualize
+  relationship among samples.
 
 ### vcf
 
