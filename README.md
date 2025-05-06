@@ -77,6 +77,15 @@ The **binned_geno_1629.RData** file contains the following R objects:
 - `dendro`: a ggplot object showing a dendrogram used to visualize
   relationship among samples.
 
+The **LODmats_1629-2025-03-12.RData** file contains the following R
+objects:
+
+- `LODmat.het`: Large matrix containing LOD scores for each marker pair.
+  Heterozygous markers and Homozygous markers.
+
+- `LODmat.hom`:Large matrix containing LOD scores for each marker pair.
+  Homozygous markers.
+
 ### vcf
 
 - `SNP_updated_IDs_sorted2.vcf.gz`: This is a lightly filtered version
