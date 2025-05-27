@@ -75,6 +75,8 @@ The **LODmats_1629-2025-03-12.RData** file contains the following R objects:
 
 - `LODmat.hom`:Large matrix containing LOD scores for each marker pair. Homozygous markers.
 
+The **ordered_markers.RData** file is a large list with nine elements. Each element corresponds to a chromosome (e.g., CHR1). Each one of those elements contains objects, the original genotype matrix, the ordered genotype matrix and two plots (the order plot and the haplotype frequency plot).
+
 
 ### vcf
 

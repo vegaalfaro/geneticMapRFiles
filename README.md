@@ -86,6 +86,12 @@ objects:
 - `LODmat.hom`:Large matrix containing LOD scores for each marker pair.
   Homozygous markers.
 
+The **ordered_markers.RData** file is a large list with nine elements.
+Each element corresponds to a chromosome (e.g., CHR1). Each one of those
+elements contains objects, the original genotype matrix, the ordered
+genotype matrix and two plots (the order plot and the haplotype
+frequency plot).
+
 ### vcf
 
 - `SNP_updated_IDs_sorted2.vcf.gz`: This is a lightly filtered version
@@ -94,4 +100,4 @@ objects:
 
 **Last updated:**
 
-    #> [1] "2025-05-06"
+    #> [1] "2025-05-27"
