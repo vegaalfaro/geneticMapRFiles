@@ -38,9 +38,14 @@ MIT
 
 ### IDs
 
-- `ID-Pedigrees-Biparentals-2025-01-22.xlsx`: This table contains
+- `ID-Pedigrees-Biparentals-2025-01-22.xlsx`: This excel file contains
   sample-level metadata for individuals in a genetic study which
   corresponds to samples in a VCF file and downstream analysis.
+
+- `ID.csv`: This csv file contains ID data for individuals in our
+  genetic study which corresponds to samples in a VCF file and
+  downstream analysis. The CSV format let us use it easily. It is the
+  same information as sheet 2 of the file above.
 
 ### phenotype
 
@@ -86,11 +91,12 @@ objects:
 - `LODmat.hom`:Large matrix containing LOD scores for each marker pair.
   Homozygous markers.
 
-The **ordered_markers.RData** file is a large list with nine elements.
-Each element corresponds to a chromosome (e.g., CHR1). Each one of those
-elements contains objects, the original genotype matrix, the ordered
-genotype matrix and two plots (the order plot and the haplotype
-frequency plot).
+The **ordered_markers.RData** file:
+
+- is a large list with nine elements. Each element corresponds to a
+  chromosome (e.g., CHR1). Each one of those elements contains objects,
+  the original genotype matrix, the ordered genotype matrix and two
+  plots (the order plot and the haplotype frequency plot).
 
 ### vcf
 
@@ -100,4 +106,4 @@ frequency plot).
 
 **Last updated:**
 
-    #> [1] "2025-05-27"
+    #> [1] "2025-06-06"
