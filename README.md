@@ -103,7 +103,7 @@ The **genotype_matrices_hmm_pop1-2025-03-12.RData** file:
 is a file that contains the reconstructed genotype after using an HMM
 model and the viterbi algorithm.
 
-The **genetic_maps_pop2-2025-03-12.RData** file:
+The **genetic_maps_pop2-2025-06-06.RData** file:
 
 is a file that contains the genetic maps for the reference genome order
 and optimized order estimated according to this
