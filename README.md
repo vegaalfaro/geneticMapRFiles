@@ -93,10 +93,21 @@ objects:
 
 The **ordered_markers.RData** file:
 
-- is a large list with nine elements. Each element corresponds to a
-  chromosome (e.g., CHR1). Each one of those elements contains objects,
-  the original genotype matrix, the ordered genotype matrix and two
-  plots (the order plot and the haplotype frequency plot).
+is a large list with nine elements. Each element corresponds to a
+chromosome (e.g., CHR1). Each one of those elements contains objects,
+the original genotype matrix, the ordered genotype matrix and two plots
+(the order plot and the haplotype frequency plot).
+
+The **genotype_matrices_hmm_pop1-2025-03-12.RData** file:
+
+is a file that contains the reconstructed genotype after using an HMM
+model and the viterbi algorithm.
+
+The **genetic_maps_pop2-2025-03-12.RData** file:
+
+is a file that contains the genetic maps for the reference genome order
+and optimized order estimated according to this
+[script](https://vegaalfaro.github.io/geneticMapR/articles/Haplotype_and_Map.html).
 
 ### vcf
 
@@ -106,4 +117,4 @@ The **ordered_markers.RData** file:
 
 **Last updated:**
 
-    #> [1] "2025-06-06"
+    #> [1] "2025-06-09"
